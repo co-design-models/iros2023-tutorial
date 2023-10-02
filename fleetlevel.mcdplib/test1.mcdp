@@ -13,6 +13,7 @@ mcdp {
     provides linear_velocity using body
     provides angular_velocity using body
     provides max_slope using body
+    provides payload using body
     
  
 }
