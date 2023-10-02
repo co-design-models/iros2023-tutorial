@@ -1,0 +1,11 @@
+catalogue {
+    provides max_slope [deg]
+    provides linear_velocity [m/s]
+    provides angualr_velocity [m/s]
+    
+    requires power [W]
+    requires num_components [Nat]
+    requires num_high_power_motors [Nat]
+    requires num_low_power_motors [Nat]
+    
+}
