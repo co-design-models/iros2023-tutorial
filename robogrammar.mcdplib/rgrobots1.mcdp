@@ -1,7 +1,7 @@
 catalogue {
     provides max_slope [deg]
     provides linear_velocity [m/s]
-    provides angualr_velocity [m/s]
+    provides angular_velocity [m/s]
     
     requires power [W]
     requires num_components [Nat]
