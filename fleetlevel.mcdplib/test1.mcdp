@@ -1,0 +1,18 @@
+mcdp {
+    sub body = instance `robogrammar.rgrobots1
+    
+    cost_high_power_motor = 50 USD
+    cost_low_power_motor = 10 USD
+    cost_components = 5 USD
+requires cost = (
+    cost_high_power_motor * (num_high_power_motors required by body) + 
+    cost_low_power_motor * (num_low_power_motors required by body) + 
+    cost_components * (num_components required by body))
+    
+    requires power for body
+    provides linear_velocity using body
+    provides angular_velocity using body
+    provides max_slope using body
+    
+ 
+}

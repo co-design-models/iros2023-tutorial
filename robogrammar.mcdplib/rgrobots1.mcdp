@@ -1,11 +1,13 @@
 catalogue {
     provides max_slope [deg]
     provides linear_velocity [m/s]
-    provides angular_velocity [m/s]
+    provides angular_velocity [deg/s]
     
     requires power [W]
     requires num_components [Nat]
     requires num_high_power_motors [Nat]
     requires num_low_power_motors [Nat]
     
+    
+    0 deg, 0 m/s, 0 deg/s <--| null_robot |-->  0 W, 0, 0, 0
 }
