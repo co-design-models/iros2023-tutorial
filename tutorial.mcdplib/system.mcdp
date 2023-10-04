@@ -1,0 +1,22 @@
+mcdp {
+robot = `instance robogrammar
+fleet = `instance fleet 
+
+provides speed using robogrammar
+provides terrain using robogrammar
+
+requires cost [USD]
+requires power [W]
+
+
+cost_motor = 50 USD
+cost_components = 5 USD
+cost_robot = cost_motor * (num_motors required by robot) + cost_components * (num_components required by robot)
+total_cost = cost_robot * num_robots required by fleet 
+total_power = power required by robot + num_robots required by fleet
+
+
+required cost >= total_cost 
+required power >= total_power
+    
+}
