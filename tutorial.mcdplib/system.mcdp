@@ -11,6 +11,9 @@ requires power [W]
 
 cost_motor = 50 USD
 cost_components = 5 USD
+
+distance_r required by fleet <= distance provided by robot
+
 cost_robot = cost_motor * (num_motors required by robot) + cost_components * (num_components required by robot)
 total_cost = cost_robot * num_robots required by fleet 
 total_power = power required by robot + num_robots required by fleet
