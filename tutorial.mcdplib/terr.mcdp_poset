@@ -1,0 +1,4 @@
+poset {
+flat sloped
+flat <= sloped
+}
