@@ -4,7 +4,7 @@ fleet = `instance fleet
 
 provides speed using robogrammar
 provides terrain using robogrammar
-provides distance_t using fleet
+provides distance_tot using fleet
 
 requires cost [USD]
 requires power [W]
