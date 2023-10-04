@@ -5,4 +5,5 @@ requires distance_r [m]
 requires num_robots [Nat]
 
 provided distance_tot >= distance_r * num_robots
+
 }
