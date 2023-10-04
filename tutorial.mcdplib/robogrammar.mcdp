@@ -1,11 +1,12 @@
 catalogue {
     provides terrain [`terr]
     provides speed [m/s]
+    provides distance [m]
     provides payload [g]
     
     requires power [W]
     requires num_components [Nat]
     requires num_motors [Nat]    
     
-    `terr: flat, 0 m/s, 0 g <--| null_robot |-->  0 W, 0, 0
+    `terr: flat, 0 m/s, 0 m, 0 g <--| null_robot |-->  0 W, 0, 0
 }
