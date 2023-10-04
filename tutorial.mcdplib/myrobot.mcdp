@@ -1,4 +1,6 @@
 mcdp {
 
+provides energy [j]
+
     
 }
