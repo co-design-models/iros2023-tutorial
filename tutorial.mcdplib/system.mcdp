@@ -1,10 +1,11 @@
 mcdp {
-robot = `instance robogrammar
-fleet = `instance fleet 
+robot = instance `robogrammar
+fleet = instance `fleet 
 
-provides speed using robogrammar
-provides terrain using robogrammar
+provides speed using robot
+provides terrain using robot
 provides distance_tot using fleet
+provides payload using robot
 
 requires cost [USD]
 requires power [W]
@@ -17,7 +18,7 @@ distance_r required by fleet <= distance provided by robot
 
 cost_robot = cost_motor * (num_motors required by robot) + cost_components * (num_components required by robot)
 total_cost = cost_robot * num_robots required by fleet 
-total_power = power required by robot + num_robots required by fleet
+total_power = power required by robot * num_robots required by fleet
 
 required cost >= total_cost 
 required power >= total_power

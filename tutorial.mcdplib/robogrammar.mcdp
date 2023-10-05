@@ -8,5 +8,5 @@ catalogue {
     requires num_components [Nat]
     requires num_motors [Nat]    
     
-    `terr: flat, 0 m/s, 0 m, 0 g <--| null_robot |-->  0 W, 0, 0
+    `terr: flat, 1 m/s, 1 m, 1 g <--| null_robot |-->  1 W, 1, 1
 }

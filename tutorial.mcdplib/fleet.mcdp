@@ -2,8 +2,8 @@ mcdp {
 
 provides distance_tot [m]
 requires distance_r [m]
-requires num_robots [Nat]
+requires num_robots [dimensionless]
 
-provided distance_tot >= distance_r * num_robots
+provided distance_tot <= required distance_r * required num_robots
 
 }
