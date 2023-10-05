@@ -1,4 +1,8 @@
 poset {
-flat slope
-flat <= slope
+ 
+
+flat ≤ slope <= more_slope
+
+sand
+
 }
