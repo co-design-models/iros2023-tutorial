@@ -3,7 +3,6 @@ catalogue {
     provides distance [m]
     provides payload [g]
     
-    #requires power [W]
     requires num_components [Nat]
     requires num_motors [Nat]    
 
