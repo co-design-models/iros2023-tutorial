@@ -10,21 +10,21 @@ provides payload using robot
 requires cost [USD]
 requires number_j [Nat]
 #requires power [W]
-requires num_m [Nat]
+#requires num_m [Nat]
 
 
-cost_motor = 50 USD
-cost_components = 5 USD
+cost_motor = 10 USD
+cost_components = 10 USD
 
-#distance_r required by fleet <= distance provided by robot
 
 cost_robot = cost_motor * (num_motors required by robot) + cost_components * (num_components required by robot)
 
-#total_power = power required by robot * num_robots required by fleet
+#power_const = 5.0 W
+#total_power = num_motors required by robot * power_const
 
 required cost >= cost_robot 
 required number_j >= num_components required by robot
-required num_m >= num_motors required by robot
+#required num_m >= num_motors required by robot
 #required power >= total_power
     
 }
