@@ -1,8 +1,11 @@
 mcdp {
-robot = instance `robogrammar
-#fleet = instance `fleet 
 
-#provides speed using robot
+robot = instance `robogrammar
+
+
+
+
+
 provides terrain using robot
 provides distance using robot
 provides payload using robot
@@ -11,6 +14,7 @@ requires cost [USD]
 requires number_j [Nat]
 #requires power [W]
 #requires num_m [Nat]
+
 
 
 cost_motor = 10 USD
