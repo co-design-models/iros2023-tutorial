@@ -6,7 +6,7 @@ catalogue {
     #requires power [W]
     requires num_components [Nat]
     requires num_motors [Nat]    
-    
+
 `terr: flat, 3.9859 m, 68.3296 g <--| robot_0x11x12x1x13x6x2x3x4x4x4x15x19x16x14x9x9x7x8x8x5 |--> 12, 9
 `terr: flat, 4.2633 m, 143.3352 g <--| robot_0x1x1x13x13x1x13x12x11x7x3x2x14x1x4x15x8x4x18x11x6x2x8x4x3x15x14x5x9x2x18x5x4x5x19x9x8x9x8 |--> 25, 18
 `terr: flat, 3.9969 m, 127.6272 g <--| robot_0x7x12x2x15x1x2x1x9x2x13x17x13x16x1x5x1x5x6x3x11x5x9x9x2x19x5x8 |--> 21, 12
@@ -40,7 +40,5 @@ catalogue {
 `terr: flat, 4.1862 m, 44.7677 g <--| robot_0x2x15x1x6x3x4x7x18x8x5x13x8 |--> 8, 5
 `terr: flat, 2.9060 m, 10.6029 g <--| robot_0x6x12x3x7 |--> 1, 0
 `terr: slope, 3.9973 m, 53.7998 g <--| robot_0x7x12x6x2x16x4x19x4x14x9x5x9x9 |--> 9, 6
-
-
 
 }
