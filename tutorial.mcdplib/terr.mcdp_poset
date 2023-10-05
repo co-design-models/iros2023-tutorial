@@ -1,4 +1,4 @@
 poset {
-flat sloped
-flat <= sloped
+flat slope
+flat <= slope
 }

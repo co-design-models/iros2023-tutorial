@@ -1,12 +1,46 @@
 catalogue {
     provides terrain [`terr]
-    provides speed [m/s]
     provides distance [m]
     provides payload [g]
     
-    requires power [W]
+    #requires power [W]
     requires num_components [Nat]
     requires num_motors [Nat]    
     
-    `terr: flat, 1 m/s, 1 m, 1 g <--| null_robot |-->  1 W, 1, 1
+`terr: flat, 3.9859 m, 68.3296 g <--| robot_0x11x12x1x13x6x2x3x4x4x4x15x19x16x14x9x9x7x8x8x5 |--> 12, 9
+`terr: flat, 4.2633 m, 143.3352 g <--| robot_0x1x1x13x13x1x13x12x11x7x3x2x14x1x4x15x8x4x18x11x6x2x8x4x3x15x14x5x9x2x18x5x4x5x19x9x8x9x8 |--> 25, 18
+`terr: flat, 3.9969 m, 127.6272 g <--| robot_0x7x12x2x15x1x2x1x9x2x13x17x13x16x1x5x1x5x6x3x11x5x9x9x2x19x5x8 |--> 21, 12
+`terr: slope, 3.9914 m, 38.0918 g <--| robot_0x6x2x14x4x9x12x8x18x5x7 |--> 7, 4
+`terr: flat, 3.9996 m, 47.5166 g <--| robot_0x2x5x19x11x12x8x1x7x3x11x1x11x6x3 |--> 7, 4
+`terr: flat, 2.9060 m, 10.6029 g <--| robot_0x10x3x11x7x6 |--> 1, 0
+`terr: flat, 3.9728 m, 26.3108 g <--| robot_0x6x12x2x5x8x7x19 |--> 5, 2
+`terr: flat, 3.9994 m, 36.9137 g <--| robot_0x2x11x7x1x19x8x3x11x6x5 |--> 6, 3
+`terr: flat, 3.9979 m, 51.4436 g <--| robot_0x13x3x1x12x1x3x2x6x11x15x5x9x7 |--> 7, 4
+`terr: flat, 4.3182 m, 103.6726 g <--| robot_0x13x1x2x16x10x2x6x16x4x4x17x10x17x8x8x8x4x15x9x4x14x8x4x8x7x16x8x5x4x18x5x8 |--> 22, 16
+`terr: slope, 4.0000 m, 59.2976 g <--| robot_0x11x3x12x1x3x13x7x1x2x17x8x6x4x9x15x5 |--> 9, 6
+`terr: slope, 2.6036 m, 21.2058 g <--| robot_0x3x1x3x11x6x11x7 |--> 2, 1
+`terr: flat, 4.1063 m, 117.0243 g <--| robot_0x1x1x7x10x12x11x2x17x3x5x1x12x2x2x6x4x19x14x18x8x4x5x5x9x16x8x9x9 |--> 20, 12
+`terr: slope, 3.9743 m, 53.7998 g <--| robot_0x10x6x7x2x4x9x18x9x19x4x14x5x9 |--> 9, 6
+`terr: slope, 3.9994 m, 62.0465 g <--| robot_0x11x12x1x7x11x1x3x3x13x1x6x2x16x5x9x3 |--> 8, 5
+`terr: slope, 3.9977 m, 48.6947 g <--| robot_0x10x11x1x13x6x3x7x2x4x19x9x18x8x5 |--> 8, 5
+`terr: slope, 3.9664 m, 30.2378 g <--| robot_0x6x12x2x19x9x5x7 |--> 5, 2
+`terr: flat, 3.9990 m, 36.9137 g <--| robot_0x7x11x3x1x6x2x8x16x5 |--> 6, 3
+`terr: slope, 3.9578 m, 45.9458 g <--| robot_0x6x2x18x10x9x4x15x8x4x7x18x8x5 |--> 9, 6
+`terr: slope, 3.9827 m, 36.9137 g <--| robot_0x3x1x6x11x10x7x2x5x8x14 |--> 6, 2
+`terr: flat, 2.9060 m, 10.6029 g <--| robot_0x6x3x13x7 |--> 1, 0
+`terr: flat, 2.9060 m, 10.6029 g <--| robot_0x11x10x6x3x7 |--> 1, 0
+`terr: flat, 4.3056 m, 94.6405 g <--| robot_0x1x12x1x12x6x12x2x4x16x16x5x8x2x8x8x14x3x4x16x7x9x4x17x9x5 |--> 17, 12
+`terr: flat, 2.9060 m, 10.6029 g <--| robot_0x6x3x10x7 |--> 1, 0
+`terr: flat, 2.9060 m, 10.6029 g <--| robot_0x6x11x7x3 |--> 1, 0
+`terr: flat, 3.7403 m, 26.3108 g <--| robot_0x2x8x17x5x7x6 |--> 5, 2
+`terr: slope, 4.1748 m, 118.2024 g <--| robot_0x11x11x1x2x10x16x1x9x4x12x16x4x14x4x5x15x6x2x18x9x5x9x2x16x5x7x8x8x9 |--> 21, 13
+`terr: slope, 3.9973 m, 49.8728 g <--| robot_0x10x7x6x2x18x4x19x4x16x8x9x5x9 |--> 9, 6
+`terr: flat, 3.9882 m, 40.8407 g <--| robot_0x1x7x2x9x6x5x14x13x3 |--> 6, 3
+`terr: flat, 4.0021 m, 88.3573 g <--| robot_0x10x1x1x12x10x13x3x1x12x7x1x6x2x18x8x5x3x3x2x16x9x5 |--> 13, 7
+`terr: flat, 4.1862 m, 44.7677 g <--| robot_0x2x15x1x6x3x4x7x18x8x5x13x8 |--> 8, 5
+`terr: flat, 2.9060 m, 10.6029 g <--| robot_0x6x12x3x7 |--> 1, 0
+`terr: slope, 3.9973 m, 53.7998 g <--| robot_0x7x12x6x2x16x4x19x4x14x9x5x9x9 |--> 9, 6
+
+
+
 }
