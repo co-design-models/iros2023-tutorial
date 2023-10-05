@@ -1,6 +1,7 @@
 catalogue {
     provides terrain [`terr]
     provides distance [m]
+    
     provides payload [g]
     
     requires num_components [Nat]
