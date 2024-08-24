@@ -2,7 +2,8 @@ title: Query query_fleet_000
 description: ''
 model: '`fleet'
 query:
-  query_type: FixFunMinRes
-  min_functionalities: {}
-  resources_limits: {}
-  optimize_for: []
+  query_type: FixResMaxFun
+  functionalities_limits: {}
+  max_resources: {}
+  optimize_for:
+  - distance_tot
